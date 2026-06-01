@@ -3,11 +3,11 @@ import pandas as pd
 import numpy as np
 
 # 1. 홈페이지의 브라우저 탭 제목 설정
-st.set_page_config(page_title="대표님의 첫 홈페이지", page_icon="✨")
+st.set_page_config(page_title="홈페이지", page_icon="✨")
 
 # 2. 화면에 보여줄 내용 적기
-st.title("🚀 나의 첫 파이썬 홈페이지")
-st.subheader("아무것도 모르는 상태에서 시작해 서버 구동까지 성공!")
+st.title("파이썬 홈페이지")
+st.subheader("트렌드 검색어")
 
 st.markdown("""
 ---
@@ -37,4 +37,3 @@ chart_data = pd.DataFrame(
 
 # 화면에 멋진 선 그래프 그리기
 st.line_chart(chart_data)
-
